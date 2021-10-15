@@ -11,7 +11,8 @@ import java.util.LinkedList;
 public class Cameriere extends Personale implements Servizio, ServiPortata{
 	private LinkedList<Ordinazione> ordinazioni;
 	
-	public Cameriere() {
+	public Cameriere(String nome, int valutazione) {
+		super(nome, valutazione);
 	}
 	
 	public void putOrdinazione(Ordinazione ordinazione) {

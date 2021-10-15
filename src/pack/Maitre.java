@@ -8,18 +8,13 @@ import java.util.LinkedList;
  *
  */
 
-public class Maitre extends Cameriere implements Servizio, ServiPortata {
+public class Maitre extends Personale implements Servizio, ServiPortata {
 	private LinkedList<String> clienti;
 	
-	public Maitre(LinkedList<String> clienti) {
-		setClienti(clienti);
+	public Maitre() {
 	}
 
 	public LinkedList<String> getClienti() {
 		return clienti;
-	}
-
-	protected void setClienti(LinkedList<String> clienti) {
-		this.clienti = clienti;
 	}
 }

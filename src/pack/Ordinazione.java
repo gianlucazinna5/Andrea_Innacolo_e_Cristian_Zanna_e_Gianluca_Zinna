@@ -8,7 +8,7 @@ package pack;
 
 import java.util.LinkedList;
 
-public class Ordinazione extends Cameriere implements Servizio, ServiPortata {
+public class Ordinazione implements Servizio {
 	private short numTavolo;
 	private String orarioOrdinazione;
 	private LinkedList<Pietanza> listaOrdnazione;

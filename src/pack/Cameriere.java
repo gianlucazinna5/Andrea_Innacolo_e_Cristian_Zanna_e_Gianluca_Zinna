@@ -1,5 +1,10 @@
 package pack;
+/**
+ * 
+ * @author Cristian Zanna
+ *
+ */
 
-public class Cameriere {
-
+public abstract class Cameriere {
+	
 }

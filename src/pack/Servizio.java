@@ -1,5 +1,10 @@
 package pack;
 
-public class Servizio {
+/**
+ * 
+ * @author Cristian Zanna
+ *
+ */
+public interface Servizio {
 
 }
